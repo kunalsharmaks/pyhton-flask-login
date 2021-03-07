@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block body %}
+<form action="/registration_post" method="post">
+    enter ID <input type="text" name="k1"><br>
+    enter password <input type="text" name="k2"><br>
+    user name <input type="text" name="k3"><br>
+    phone no <input type="text" name="k4"><br>
+    email <input type="text" name="k5"><br>
+    <input type="submit" value="register">
+</form>
+{{data}}
+
+
+<br><br><br><br>
+{% endblock %}
